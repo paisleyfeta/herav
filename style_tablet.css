@@ -1,0 +1,174 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .row.content.module-43 {
+        margin-bottom: 250px;
+    }
+    .row.content.module-43:after {
+        display: none;
+    }
+    .row.content.module-11 .module-11-txt {
+        margin-top: 470px;
+    }
+    .col-t-6 {
+        width: 50%;
+        float: left;
+    }
+    .row.content.module-8 .background {
+        right: 0 !important;
+        background-size: 100%;
+    }
+    .row.content.module-12 .module-12-txt {
+        margin-top: 630px;
+    }
+    .row.content.module-1 .module-1-txt {
+        background-size: contain;
+    }
+    .row.content.module-50 .tabs ul.list.list-tabs li.item {
+        background: #fff !important;
+    }
+    .row.content.module-15 .module-15-gallery {
+        background-size: contain;
+        margin-top: 40px;
+    }
+    .row.content.module-16 .inner>div:first-of-type {
+        display: block;
+    }
+    .row.content.module-16 .module-15-gallery {
+        background-size: contain;
+    }
+    .row.content.module-16 .tip {
+        margin-top: 70px;
+    }
+    .row.content.module-16 .tip:after, .row.content.module-17 .tip:after {
+        background-image: url("icon_tip-1.png");
+        background-size: contain;
+        height: 82px;
+        top: -45px;
+    }
+    .row.content.module-33 .article .background {
+        height: 500px;
+    }
+    .row.content.module-9 .module-9-txt {
+        margin-top: 222px;
+    }
+    .row.content.module-13 .module-ki-txt {
+        margin-top: 370px !important;
+    }
+    .row.content.module-13 .module-13-txt {
+        margin-top: 205px !important;
+    }
+    .row.content.module-13 .module-km-right {
+        margin-top: 15px !important;
+    }
+    .msg1, .msg2 {
+        margin-top: -12px;
+        display: block;
+        margin-left: 0;
+    }
+    .prukaz-btn {
+        display: block;
+        width: 50vw;
+        margin-left: 25vw;
+    }
+    img.prukaz-img {
+        margin: 0 auto;
+        display: block;
+    }
+    #slider .slick-prev, #slider .slick-next {
+        width: 22px;
+        height: 40px;
+    }
+    .module-8-txt {
+        margin-top: 280px !important;
+    }
+    .row.content.module-16 .module-15-gallery {
+        min-height: 560px;
+        margin-bottom: 60px;
+    }
+    .row.content.module-35 .article .background:after {
+        left: -1px;
+        top: -1px;
+        right: -1px;
+        bottom: -1px;
+    }
+    .row.content.module-13.module-13-imgcarousel .module-13-txt {
+        margin-top: 565px !important;
+    }
+    h4.ss-m {
+        font-size: initial !important;
+        line-height: initial !important;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .prukaz-btn {
+        margin-top: 22px;
+    }
+    .slick-prev {
+        left: -50vw;
+    }
+    .prukaz-img {
+        width: 55.5%;
+    }
+    .sp-select {
+        display: none;
+    }
+    .area-galerie2 .alone-title {
+        color: #9b8578 !important;
+        font-size: 45px !important;
+        line-height: 38px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        padding-bottom: 30px !important;
+        position: relative !important;
+        text-align: center !important;
+        margin-top: 0 !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #slider .text-content {
+        top: 295px;
+    }
+    .row.content.module-11 .module-11-txt {
+        width: 80%;
+    }
+    .row.content.module-8 .background {
+        right: 0;
+        background-size: 100%;
+    }
+    .row.content.module-12 .module-12-txt {
+        width: 38%;
+    }
+    .row.header .inner .nav.nav-main>ul:nth-of-type(1) {
+        padding-right: 0.615385vw !important;
+    }
+    .touch-menu {
+        display: none !important;
+    }
+    .row.content.module-35 .article .background:after {
+        left: -1px;
+        top: -1px;
+        right: -1px;
+        bottom: -1px;
+    }
+    h4.ss-m {
+        font-size: initial !important;
+        line-height: initial !important;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .sp-select {
+        display: none;
+    }
+    .row.content.module-20 .excerpt {
+        color: #9b8578;
+        font-size: 21px;
+        line-height: 35px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 35px;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

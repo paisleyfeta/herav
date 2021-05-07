@@ -1,0 +1,932 @@
+@media (max-width: 768px) {
+    .row.content.module-3 .module-3-txt {
+        background-size: contain !important;
+    }
+    .row.content.module-6 .module-6-img.module-6-img-tip .txt:before {
+        display: block;
+        content: '';
+        width: 80px;
+        height: 90px;
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        top: -49px;
+        background: #fff url("icon_tip-2.png") 0 0 no-repeat;
+        background-size: contain !important;
+        z-index: 1111;
+    }
+    .row.content.module-6 .module-6-img.module-6-img-tip .txt {
+        margin-top: 40px;
+    }
+    .row.header .inner .nav.nav-main>ul>li>ul {
+        display: none;
+    }
+    .row.header .inner .logo {
+        margin-left: -75px;
+        top: 20px;
+    }
+    footer .logo img {
+        width: 80px;
+    }
+    .footer-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .row.header .inner .nav.nav-main {
+        top: 70px;
+    }
+    .row.header .inner .nav.nav-main.open {
+        max-height: 1000px !important;
+        width: 100%;
+        left: 0;
+    }
+    .col-m-12 {
+        width: 100%;
+        float: left;
+    }
+    footer .fb-link {
+        position: absolute;
+        right: 23px;
+        top: 20px;
+    }
+    footer .fb-link img {
+        width: 30px;
+    }
+    ul.footer-links li {
+        text-align: center;
+    }
+    ul.footer-links li a {
+        line-height: 26px;
+    }
+    .col-name {
+        margin-top: 30px;
+        text-align: center;
+    }
+    footer .company-info {
+        margin-top: 10px;
+    }
+    footer .copyright {
+        font-size: 9pt;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer ul.copyright-menu li {
+        margin-left: 0;
+        float: none;
+    }
+    footer ul.copyright-menu li a {
+        float: none;
+        font-size: 10pt;
+        line-height: 17px;
+    }
+    .text-center-mobile {
+        text-align: center !important;
+    }
+    .map-btn {
+        font-size: 10pt;
+        float: none;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .module-km-right {
+        margin-top: 0;
+    }
+    .menu-content {
+        display: block;
+    }
+    footer .copyright-menu {
+        text-align: center;
+    }
+    /* jssor slider loading skin spin css */
+    .jssorl-009-spin img {
+        animation-name: jssorl-009-spin;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-009-spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    .jssorb052 .i {position:absolute;cursor:pointer;}
+    .jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
+    .jssorb052 .i:hover .b {fill-opacity:.7;}
+    .jssorb052 .iav .b {fill-opacity: 1;}
+    .jssorb052 .i.idn {opacity:.3;}
+
+    .jssora053 {display:block;position:absolute;cursor:pointer;}
+    .jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+    .jssora053:hover {opacity:.8;}
+    .jssora053.jssora053dn {opacity:.5;}
+    .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
+
+    h2.alone-title {
+        color: #9b8578;
+        font-size: 33px !important;
+        line-height: 38px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        position: relative;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .module-slider .inner {
+        padding-top: 0 !important;
+    }
+    .layout {
+        overflow: hidden;
+    }
+    .prukaz h2 {
+        color: #9b8578;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 34pt !important;
+        line-height: 44px !important;
+        font-weight: 700 !important;
+        margin-top: 7%;
+        margin-bottom: 0%;
+    }
+    .prukaz h3 {
+        margin-bottom: 10%;
+    }
+    .prukaz p {
+        font-size: 10pt;
+        line-height: 17px;
+        text-align: center;
+        margin-top: 11%;
+    }
+    form {
+
+    }
+    form label {
+        display: block;
+        font-weight: 600;
+        font-size: 10pt;
+        line-height: 20px;
+    }
+    form input, form select {
+        width: 100%;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+        border: 1px solid #e0e0e0;
+    }
+    form input[type="checkbox"], form input[type="radio"] {
+        width: auto;
+    }
+    form label.inline {
+        display: inline-block;
+    }
+    .send-form {
+        padding: 15px 10px !important;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    label.error {
+        color: #f00;
+        font-size: 8pt;
+        margin-top: -12px;
+    }
+
+    .login h2 {
+        color: #9b8578;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 28pt !important;
+        line-height: 44px !important;
+        font-weight: 700 !important;
+        margin-top: 7%;
+        margin-bottom: 9%;
+        z-index: 10;
+        position: relative;
+    }
+    .form-place {
+        width: 280px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .form-place img {
+        display: none;
+    }
+    #login-form {
+        z-index: 10;
+        position: relative;
+    }
+    #login-form label {
+        display: inline-block;
+        font-weight: 600;
+    }
+    #login-form input {
+        display: inline-block;
+        width: 82%;
+    }
+    .login-user {
+        padding: 6px 10px !important;
+        min-width: auto !important;
+        font-size: 10px !important;
+    }
+    #login-form .btns {
+        text-align: right;
+        margin-bottom: 100px;
+    }
+    .send-new-password {
+        font-size: 9pt;
+        color: #9b8578;
+        font-style: italic;
+        margin-left: 10px;
+    }
+    #slider .slick-prev {
+        display: none !important;
+    }
+    #slider .slick-next {
+        display: none !important;
+    }
+    #slider .slick-dots {
+        display: none !important;
+    }
+    #slider .slick-dots li {
+        width: 12px;
+    }
+    #slider .text-content {
+        top: 27vw;
+    }
+    #slider .slick-dots li button {
+        padding: 4px;
+    }
+    #slider .text-content h3 {
+        font-size: 20pt;
+        line-height: 30px;
+        color: #fff;
+        /* text-shadow: 2px 2px 0px rgba(70, 70, 70, 1); */
+    }
+    #slider .text-content h3 > small {
+        font-size: 15pt;
+    }
+    footer ul.socials {
+        right: 18px;
+        top: 33px;
+    }
+    #gallery2 .slick-slide {
+        outline: none;
+        float: inherit;
+        display: inline-block !important;
+        vertical-align: middle;
+    }
+
+    #gallery2 .slick-slide img {
+        max-height: 94vw;
+        max-width: 94vw;
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+    }
+
+    #gallery2nav .slick-slide img {
+        height: auto;
+    }
+
+    #gallery2 .slick-arrow {
+        display: none !important;
+    }
+    #gallery2nav {
+        margin-top: 15px;
+    }
+    .row.content.module-50 .tabs ul.list.list-tabs li.item {
+        padding: 15px 15px 45px;
+    }
+
+    .module-12 .background {
+        right: 0 !important;
+    }
+    .row.content.module-12 .module-12-txt {
+        margin-top: 190px;
+    }
+    .row.content.module-35 .inner>div:after {
+        display: none;
+    }
+    .row.content.module-15 .module-15-gallery {
+        background-position-y: 12%;
+    }
+    .row.content.module-15 .tip:after {
+        display: block;
+        content: '';
+        width: 120px;
+        height: 73px;
+        background: #fff url("") center 0 no-repeat;
+        position: absolute;
+        left: 50%;
+        margin-left: -60px;
+        top: -42px;
+        background-size: contain !important;
+    }
+    .module-km-right {
+        margin-top: 0 !important;
+    }
+    .row.content.module-8 .background {
+        right: 0;
+    }
+    .row.content.module-50 .tabs ul.list.list-tabs li.item .excerpt h3 {
+        max-width: 62%;
+    }
+    .row.content.module-50 .tabs ul.list.list-tabs li.item .article .btn.btn-primary {
+        margin: 0 auto;
+        float: none;
+        display: block;
+        width: 60vw;
+    }
+    .row.content.module-50 .tabs ul.list.list-tabs li.item .article a.pull-left, .row.content.module-50 .tabs ul.list.list-tabs li.item .article p {
+        margin: 0 auto;
+        display: block;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .row.content.module-13 .module-ki-txt {
+        margin-top: 200px;
+    }
+    .row.content.module-13.module-13-imgcarousel .background ul.list.list-img-carousel li.item {
+        background-repeat: no-repeat !important;
+    }
+    .module-13-txt {
+        margin-top: 200px !important;
+    }
+    .row.content.module-45 .col-6 {
+        padding: 15px;
+    }
+    .row.content.module-16 .tip {
+        margin-top: 70px;
+    }
+    .row.content.module-16 .tip:after, .row.content.module-17 .tip:after {
+        background-image: url("icon_tip-2.png");
+        background-size: contain !important;
+        height: 82px;
+        top: -45px;
+    }
+    .b-1-i {
+        max-height: 230px;
+        margin: 0 auto;
+        display: block;
+    }
+    #slider .text-content {
+        bottom: 19px;
+        top: auto !important;
+    }
+}
+@media (max-width: 767px) {
+    .area-galerie2 .inner {
+        padding-top: 0 !important;
+    }
+    .area-galerie2 .alone-title {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 38px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        padding-bottom: 0 !important;
+        position: relative !important;
+        text-align: center !important;
+        margin-top: 0 !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-15 .module-15-gallery {
+        min-height: 270px !important;
+    }
+    .sp-btn-m {
+        line-height: 15px !important;
+    }
+    .b-1-i {
+        max-height: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+    .row.content.module-35 .article .background:after {
+        left: -1px;
+        top: -1px;
+        right: -1px;
+        bottom: -1px;
+    }
+    h4.ss-m {
+        font-size: initial !important;
+        line-height: initial !important;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .row.content.module-50 .tabs ul.list.list-tabs li.item {
+        background: #fff;
+    }
+    .prukaz-btn {
+        left: 0;
+        display: block;
+        float: left;
+        margin-top: 83px;
+        width: 100%;
+    }
+    .slick-prev {
+        left: -50vw;
+    }
+    .prukaz-img {
+        width: 55.5%;
+    }
+    .sp-select {
+        position: absolute;
+        top: 78.5%;
+        right: 36%;
+    }
+}
+@media (max-width: 991px) {
+    .footer-desktop, .hidden-mobile {
+        display: none;
+    }
+    .mobile-tabs .m-tab {
+        border-top: 1px solid #cfc2b9;
+        border-bottom: 1px solid #cfc2b9;
+        margin-top: -1px;
+    }
+    .mobile-tabs .m-tab > .tab-head {
+        padding: 15px 0;
+    }
+    .mobile-tabs .m-tab > .tab-head > a {
+        color: #3c2413;
+        font-size: 11pt;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .mobile-tabs .m-tab > .tab-content {
+        display: none;
+    }
+    .mobile-tabs .m-tab > .tab-content.active {
+        display: block;
+        padding-bottom: 15px;
+    }
+    .mobile-tabs .m-tab > .tab-content > ul {
+        font-size: initial !important;
+        line-height: initial !important;
+    }
+    .mobile-tabs .m-tab > .tab-content > ul > li {
+        padding: 2px 0px;
+    }
+    .mobile-tabs .m-tab > .tab-content > ul > li > a {
+        text-decoration: none;
+        color: #3c2413;
+        font-size: 11pt;
+    }
+    .mobile-tabs .m-tab .marks {
+        float: right;
+        margin-right: 15px;
+    }
+    .mobile-tabs .m-tab > .tab-head a > .marks > .hide {
+        display: none
+    }
+    .mobile-tabs .m-tab > .tab-head.open a > .marks > .hide {
+        display: block;
+    }
+    .mobile-tabs .m-tab > .tab-head a > .marks > .show {
+        display: block
+    }
+    .mobile-tabs .m-tab > .tab-head.open a > .marks > .show {
+        display: none;
+    }
+    .hidden {
+        display: none;
+    }
+    .module-1-txt h1, .module-1-txt h2, .module-1-txt h3, .module-1-txt h4, .module-1-txt h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px !important;
+        margin-bottom: 20px !important;
+        text-transform: uppercase;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-2 .module-2-gallery h1, .row.content.module-2 .module-2-gallery h2, .row.content.module-2 .module-2-gallery h3, .row.content.module-2 .module-2-gallery h4, .row.content.module-2 .module-2-gallery h5 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 400 !important;
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+        background: transparent url("") 0 center repeat-x !important;
+        font-style: italic !important;
+        display: block !important;
+        text-align: center !important;
+        color: #cfc2b9 !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-2 .module-2-gallery h3 span, .row.content.module-2 .module-2-gallery h4 span, .row.content.module-2 .module-2-gallery h5 span  {
+        padding: 0 50px !important;
+        background: #fff !important;
+    }
+    .row.content.module-2 .module-2-gallery h1 span, .row.content.module-2 .module-2-gallery h2 span {
+        background: #fff !important;
+    }
+    .row.content.module-3 .module-3-txt h1, .row.content.module-3 .module-3-txt h2, .row.content.module-3 .module-3-txt h3, .row.content.module-3 .module-3-txt h4, .row.content.module-3 .module-3-txt h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 20px !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-5 .module-5-txt h1, .row.content.module-5 .module-5-txt h2, .row.content.module-5 .module-5-txt h3, .row.content.module-5 .module-5-txt h4, .row.content.module-5 .module-5-txt h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 400 !important;
+        letter-spacing: 4px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 20px !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-6 .module-6-txt h1, .row.content.module-6 .module-6-txt h2, .row.content.module-6 .module-6-txt h3, .row.content.module-6 .module-6-txt h4, .row.content.module-6 .module-6-txt h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-7 .module-7-txt h1, .row.content.module-7 .module-7-txt h2, .row.content.module-7 .module-7-txt h3, .row.content.module-7 .module-7-txt h4, .row.content.module-7 .module-7-txt h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 400 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 60px !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-8 .module-8-txt h1, .row.content.module-8 .module-8-txt h2, .row.content.module-8 .module-8-txt h3, .row.content.module-8 .module-8-txt h4, .row.content.module-8 .module-8-txt h5 {
+        color: #9b8578 !important;
+        font-size: 22px !important;
+        line-height: 30px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        padding-bottom: 30px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-9 .module-9-txt h1, .row.content.module-9 .module-9-txt h2, .row.content.module-9 .module-9-txt h3, .row.content.module-9 .module-9-txt h4, .row.content.module-9 .module-9-txt h5 {
+        color: #9b8578 !important;
+        font-size: 22px !important;
+        line-height: 30px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        padding-bottom: 30px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-10 .module-10-txt h1, .row.content.module-10 .module-10-txt h2, .row.content.module-10 .module-10-txt h3, .row.content.module-10 .module-10-txt h4, .row.content.module-10 .module-10-txt h5 {
+        color: #9b8578 !important;
+        font-size: 22px !important;
+        line-height: 30px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        padding-bottom: 30px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-11 .module-11-txt h1, .row.content.module-11 .module-11-txt h2, .row.content.module-11 .module-11-txt h3, .row.content.module-11 .module-11-txt h4, .row.content.module-11 .module-11-txt h5 {
+        color: #9b8578 !important;
+        font-size: 22px !important;
+        line-height: 30px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        padding-bottom: 30px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-12 .module-12-txt h1, .row.content.module-12 .module-12-txt h2, .row.content.module-12 .module-12-txt h3, .row.content.module-12 .module-12-txt h4, .row.content.module-12 .module-12-txt h5 {
+        color: #9b8578 !important;
+        font-size: 25px !important;
+        line-height: 32px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-13 .module-13-txt h1, .row.content.module-13 .module-13-txt h2, .row.content.module-13 .module-13-txt h3, .row.content.module-13 .module-13-txt h4, .row.content.module-13 .module-13-txt h5 {
+        color: #9b8578 !important;
+        font-size: 22px !important;
+        line-height: 30px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        padding-bottom: 30px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-14 .col-4 h1, .row.content.module-14 .col-4 h2, .row.content.module-14 .col-4 h3, .row.content.module-14 .col-4 h4, .row.content.module-14 .col-4 h5 {
+        color: #9b8578 !important;
+        font-size: 22px !important;
+        line-height: 30px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 15px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-15 h1, .row.content.module-15 h2, .row.content.module-15 h3, .row.content.module-15 h4, .row.content.module-15 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 35px !important;
+        position: relative; !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-16 h1, .row.content.module-16 h2, .row.content.module-16 h3, .row.content.module-16 h4, .row.content.module-16 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 35px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-17 h1, .row.content.module-17 h2, .row.content.module-17 h3, .row.content.module-17 h4, .row.content.module-17 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 35px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-18 h1, .row.content.module-18 h2, .row.content.module-18 h3, .row.content.module-18 h4, .row.content.module-18 h5 {
+        color: #9b8578 !important;
+        font-size: 25px !important;
+        line-height: 30px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 35px !important;
+        position: relative !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        text-align: center !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-19 h1, .row.content.module-19 h2, .row.content.module-19 h3, .row.content.module-19 h4, .row.content.module-19 h5 {
+        padding-top: 15px;
+    }
+    .row.content.module-19 h1:before, .row.content.module-19 h2:before, .row.content.module-19 h3:before, .row.content.module-19 h4:before, .row.content.module-19 h5:before {
+        content: '';
+        display: block;
+        width: 100px;
+        height: 100px;
+        background: transparent url("") center center no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        top: -20px;
+    }
+    .row.content.module-21 h1, .row.content.module-21 h2, .row.content.module-21 h3, .row.content.module-21 h4, .row.content.module-21 h5 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .row.content.module-21 h1:before, .row.content.module-21 h2:before, .row.content.module-21 h3:before, .row.content.module-21 h4:before, .row.content.module-21 h5:before {
+        content: '';
+        display: block;
+        width: 185px;
+        height: 185px;
+        background: transparent url("") center center no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 50%;
+        top: -20px;
+        margin-left: -90px;
+    }
+    .row.content.module-23 h1, .row.content.module-23 h2, .row.content.module-23 h3, .row.content.module-23 h4, .row.content.module-23 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 15px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-24 h1, .row.content.module-24 h2, .row.content.module-24 h3, .row.content.module-24 h4, .row.content.module-24 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 40px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        padding-top: 25px !important;
+        margin-bottom: 25px !important;
+        padding-bottom: 25px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-25 h1, .row.content.module-25 h2, .row.content.module-25 h3, .row.content.module-25 h4, .row.content.module-25 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 35px !important;
+        position: relative !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        text-align: center !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-26 h1, .row.content.module-26 h2, .row.content.module-26 h3, .row.content.module-26 h4, .row.content.module-26 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 35px !important;
+        position: relative !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        text-align: center !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-27 h1, .row.content.module-27 h2, .row.content.module-27 h3, .row.content.module-27 h4, .row.content.module-27 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 35px !important;
+        position: relative !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        text-align: center !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-28 .col-5 h1, .row.content.module-28 .col-5 h2, .row.content.module-28 .col-5 h3, .row.content.module-28 .col-5 h4, .row.content.module-28 .col-5 h5 {
+
+    }
+    .row.content.module-29 h1, .row.content.module-29 h2, .row.content.module-29 h3, .row.content.module-29 h4, .row.content.module-29 h5 {
+        color: #9b8578 !important;
+        font-size: 25px !important;
+        line-height: 30px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 0 !important;
+        position: absolute !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        background: #fff !important;
+        padding-top: 50px !important;
+        padding-right: 25px !important;
+        width: 58.333333333333336% !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-30 .excerpt h1, .row.content.module-30 .excerpt h2, .row.content.module-30 .excerpt h3, .row.content.module-30 .excerpt h4, .row.content.module-30 .excerpt h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        padding-top: 0 !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-39 h1, .row.content.module-39 h2, .row.content.module-39 h3, .row.content.module-39 h4, .row.content.module-39 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 20px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-40 h1, .row.content.module-40 h2, .row.content.module-40 h3, .row.content.module-40 h4, .row.content.module-40 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 15px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-41 h1, .row.content.module-41 h2, .row.content.module-41 h3, .row.content.module-41 h4, .row.content.module-41 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 15px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-42 h1, .row.content.module-42 h2, .row.content.module-42 h3, .row.content.module-42 h4, .row.content.module-42 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        position: relative !important;
+        padding-top: 98px !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-43 h1, .row.content.module-43 h2, .row.content.module-43 h3, .row.content.module-43 h4, .row.content.module-43 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 15px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-45 h1, .row.content.module-45 h2, .row.content.module-45 h3, .row.content.module-45 h4,  .row.content.module-45 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 15px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-46 h1, .row.content.module-46 h2, .row.content.module-46 h3, .row.content.module-46 h4, .row.content.module-46 h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 35px !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 25px !important;
+        text-align: center !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+    .row.content.module-50 .article.article-left h1, .row.content.module-50 .article.article-left h2, .row.content.module-50 .article.article-left h3, .row.content.module-50 .article.article-left h4, .row.content.module-50 .article.article-left h5 {
+        color: #9b8578 !important;
+        font-size: 30px !important;
+        line-height: 40px !important;
+        font-weight: 600 !important;
+        letter-spacing: 3px !important;
+        text-transform: uppercase !important;
+        margin-bottom: 30px !important;
+        position: relative !important;
+        font-family: 'Frank Ruhl Libre',sans-serif !important;
+    }
+}
+@media (min-width: 992px) {
+    .footer-mobile, .hidden-desktop {
+        display: none;
+    }
+}
